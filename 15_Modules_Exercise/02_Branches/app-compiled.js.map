@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.js"],"names":[],"mappings":"AAAA,IAAI,SAAS,QAAQ,UAAR,CAAb;AACA,IAAI,WAAW,QAAQ,YAAR,CAAf;;AAEA,OAAO,MAAP,GAAgB,MAAhB;AACA,OAAO,QAAP,GAAkB,QAAlB","file":"app-compiled.js","sourcesContent":["let Branch = require('./branch');\r\nlet Employee = require('./employee');\r\n\r\nresult.Branch = Branch;\r\nresult.Employee = Employee;"]}
