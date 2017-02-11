@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table Builder</title>
+    <style>td,th { background:#DDD; padding:5px }</style>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<div id="main"></div>
+<script src="04-table-builder.js">
+
+</script>
+<script>
+    $(function() {
+        let builder = tableBuilder("#main");
+        builder.createTable(['<div>Name', '<new>Town', 'Country']);
+        builder.fillData([
+            ['Maria', 'Sofia', '/Bulgaria'],
+            ['Kiril', 'Varna', '&Bul"garia'],
+            ['Ani <new>', 'Ruse', 'Bulgaria'],
+        ]);
+    });
+</script>
+</body>
+</html>
